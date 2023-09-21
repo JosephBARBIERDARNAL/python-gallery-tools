@@ -1,5 +1,5 @@
 import streamlit as st
-from meta_data_init import define_meta_data
+from meta_data import define_meta_data
 from family_to_charttype import get_chart_types
 from front import space
 

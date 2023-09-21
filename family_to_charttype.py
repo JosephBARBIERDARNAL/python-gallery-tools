@@ -8,6 +8,6 @@ def get_chart_types(family):
                    'evolution': ['line', 'area', 'stackedArea', 'stream', 'timeseries'],
                    'map': ['map', 'hebin', 'cartogram', 'connection', 'bubbleMap'],
                    'flow': ['chordDiagram', 'network', 'sankey', 'arc', 'edgeBundling'],
-                   'general': ['colors', 'plotly', 'animation', 'cheatSheets', 'caveats', '3d']
+                   'general': ['colors', 'plotly', 'animation', 'cheatSheets', 'caveats', '3d', 'statistics']
                    }
     return chart_types_dict[family]
